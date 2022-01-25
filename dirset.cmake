@@ -1,0 +1,7 @@
+function(dirset var dir)
+  set(v)
+  foreach(c ${ARGN})
+    set(v ${v} ${dir}/${c})
+  endforeach(c)
+  set(${var} ${v} PARENT_SCOPE)
+endfunction(dirset)
