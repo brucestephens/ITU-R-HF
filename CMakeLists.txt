@@ -14,4 +14,4 @@ include(dirset.cmake)
 
 add_subdirectory(P533)
 add_subdirectory(P372)
-# add_subdirectory(ITURHFProp)
+add_subdirectory(ITURHFProp)
