@@ -12,4 +12,4 @@ set(srcs Between7000kmand9000km.c ELayerScreeningFrequency.c Magfit.c
 
 dirset(srcs Src/P533 ${srcs})
 
-add_library(p533 SHARED ${srcs})
+add_library(p533 MODULE ${srcs})

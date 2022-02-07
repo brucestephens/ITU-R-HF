@@ -6,4 +6,4 @@ set(srcs InitializeNoise.c Noise.c NoiseMemory.c)
 
 dirset(srcs Src/P372 ${srcs})
 
-add_library(p372 SHARED ${srcs})
+add_library(p372 MODULE ${srcs})
