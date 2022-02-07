@@ -10,6 +10,8 @@ set(CMAKE_C_STANDARD 99)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS on)
 
+add_compile_options(-Wno-braced-scalar-init)
+
 include(dirset.cmake)
 
 add_subdirectory(P533)
